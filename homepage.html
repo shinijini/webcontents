@@ -5,20 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+
+    <style>
+        body {background-color:aliceblue;}
+        h1 {color: brown; text-align: center;}
+        p {text-indent: 1em; font-family: "휴먼편지체"; font-size: 1em;}
+        h3 a {text-decoration: none;}
+        nav ul {border: 1px dotted blue;}
+        h3 {text-shadow: 3px 3px 5px skyblue;}
+        footer {background-color: orange; border-radius: 10px; padding: 5px;}
+    </style>
 </head>
 <header>
-    <h3>About me</h3>
+    <h1>신이지니</h1>
     <hr>
-    <div></div>
     <p>안녕하세요! 제 이름은 신이지니입니다.
         <br>올해 명지전문대에 입학한 새내기입니다.
         <br>다양한 관심분야와 취미 활동을 하고 있습니다.
     </p>
+    <audio src="" controls loop></audio>
+    <br><br>
 </header>
-<br><br>
+<nav>
+    <h3>목차</h3>
+    <ul>
+        <li><a href="#chap1">관심 분야</a></li>
+        <li><a href="#chap2">취미 활동</a></li>
+        <li><a href="#chap3">강의 시간표</a></li>
+    </ul>
+    <br><br>
+</nav>
 <section>
     <article>
-        <h3>관심 분야</h3>
+        <h3 id="chap1">관심 분야</h3>
         <hr>
         <ul>
             <li>가상 현실/증강 현실(VR/AR)</li>
@@ -45,7 +64,7 @@
     </article>
     <br><br>
     <article>
-        <h3>취미 활동</h3>
+        <h3 id="chap2">취미 활동</h3>
         <hr>
         <table border="1" style="text-align: center;">
             <tbody>
@@ -65,7 +84,7 @@
     </article>
     <br><br><br>
     <article>
-        <h3>강의 시간표 (2025학년 1학기)</h3>
+        <h3 id="chap3">강의 시간표 (2025학년 1학기)</h3>
         <hr>
         <table border="1" width="600" height="500" style="text-align: center;">
             <tbody>
@@ -144,15 +163,14 @@
                 </tr>
             </tbody>
         </table>
-    </article>
-    <article>
         <hr>
-        <a href="survey.html">설문조사</a>
     </article>
 </section>
-<br>
 <footer>
-    2025년 3월 25일 작성
+    <article>
+        <p><a href="survey.html">설문조사</a></p>
+    </article>
+    <p>2025년 3월 25일 작성</p>
 </footer>
 </body>
 
